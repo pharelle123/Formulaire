@@ -45,7 +45,7 @@
                         id="login" 
                         name="login" 
                         placeholder="Votre Login" 
-                        aria-required="true" 
+                        required="true" 
                         autofocus> 
 
                         <label for="password">Mot De Passe</label>
@@ -53,7 +53,7 @@
                         id="password"
                         name="password"
                         placeholder="Votre Mot De Passe"
-                        aria-required="true"
+                       required="true"
                         > 
                         
                         <input type="checkbox"
