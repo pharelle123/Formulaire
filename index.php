@@ -25,20 +25,13 @@
        
         $admin = isset($_POST['admin']) ? 1 : 0;
 
-        if(empty($login) || empty($password)){
-            echo"<p> Tous les champs obligatoires</p>;
-        }else{
-        
+       
+
         print "<p>Valeur à enregistrer en base : " . $admin."</p>";
         
         echo "Login : $login <br>";
         echo "Mot de passe : $password <br>";
-        }
-
     }
-        
-          
-        
 ?>
 
 
