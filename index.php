@@ -20,10 +20,15 @@
     <?php
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $login =$_POST['login'] ?? '';
+        $password =$_POST['password'] ?? '';
        
         $admin = isset($_POST['admin']) ? 1 : 0;
 
         print "<p>Valeur à enregistrer en base : " . $admin."</p>";
+        
+        echo "Login : $login <br>";
+        echo "Mot de passe : $password <br>";
     }
 ?>
 

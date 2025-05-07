@@ -41,7 +41,7 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: #cb06f3;
+    background-color: #a275ab;
     color: white;
     padding: 1rem 3.5rem;
     border: none;
@@ -50,7 +50,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #d000ff;
+    background-color: #be99c6;
 }
 
 fieldset, section{
